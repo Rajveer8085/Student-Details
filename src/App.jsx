@@ -4,7 +4,7 @@ import "./App.css"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import LoginPage from './Pages/LoginPage';
-import Dashboard from './pages/Dashboard';
+import Dashboard from './Pages/Dashboard';
 import AddStudent from './Pages/AddStudent';
 import StudentDetails from './Pages/StudentDetails';
 import ProtectedRoute from './components/ProtectedRoute';
