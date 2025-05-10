@@ -1,0 +1,152 @@
+/* src/App.css */
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #f4f7fc, #e0e6f1); /* Gradient background */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Centering content and max width */
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+/* Heading Styles */
+h2, h3 {
+  text-align: center;
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+/* Modern Card for Add Student Form */
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+form:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15); /* Hover effect */
+}
+
+/* Input Fields */
+input, select {
+  border-radius: 8px;
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #dfe6e9;
+  transition: all 0.3s ease;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+}
+
+/* Submit Button */
+form button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+form button:hover {
+  background-color: #2980b9;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+table th {
+  background-color: #2980b9;
+  color: white;
+  text-transform: uppercase;
+}
+
+table td a {
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+table td a:hover {
+  color: #2c3e50;
+}
+
+/* Modern Card for Student Details */
+ul.list-group {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+ul.list-group li {
+  padding: 15px;
+  border: none;
+  font-size: 16px;
+}
+
+ul.list-group li:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+ul.list-group li:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  form button {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 10px;
+  }
+
+  form button {
+    padding: 8px;
+  }
+}
